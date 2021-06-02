@@ -19,6 +19,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MentionsLegalesComponent } from './content/mentions-legales/mentions-legales.component';
 import { ConfidentialiteComponent } from './content/confidentialite/confidentialite.component';
 import { ProtectionDonneesComponent } from './content/protection-donnees/protection-donnees.component';
+import { NotFoundComponent } from './content/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ProtectionDonneesComponent } from './content/protection-donnees/protect
     HeaderNavComponent,
     MentionsLegalesComponent,
     ConfidentialiteComponent,
-    ProtectionDonneesComponent
+    ProtectionDonneesComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
