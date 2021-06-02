@@ -1,0 +1,7 @@
+app-footer {
+    position: absolute;
+    bottom: 0;
+    left: calc((100% - var(--body-width)) / 2);
+    width: var(--body-width);
+    margin: auto;
+}

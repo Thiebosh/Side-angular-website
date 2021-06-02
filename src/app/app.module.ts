@@ -16,6 +16,9 @@ import { CreditComponent } from './content/services/credit/credit.component';
 import { HeaderTopComponent } from './header/header-top/header-top.component';
 import { HeaderNavComponent } from './header/header-nav/header-nav.component';
 import { MatButtonModule } from '@angular/material/button';
+import { MentionsLegalesComponent } from './content/mentions-legales/mentions-legales.component';
+import { ConfidentialiteComponent } from './content/confidentialite/confidentialite.component';
+import { ProtectionDonneesComponent } from './content/protection-donnees/protection-donnees.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,10 @@ import { MatButtonModule } from '@angular/material/button';
     SoulteComponent,
     CreditComponent,
     HeaderTopComponent,
-    HeaderNavComponent
+    HeaderNavComponent,
+    MentionsLegalesComponent,
+    ConfidentialiteComponent,
+    ProtectionDonneesComponent
   ],
   imports: [
     BrowserModule,
