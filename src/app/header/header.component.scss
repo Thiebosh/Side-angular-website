@@ -1,11 +1,12 @@
 .component-root {
-    div:first-of-type {
-        width: 7em;
-        text-align: center;
-        background-color: green;
-    }
+    align-items: center;
+    margin: 0 1em;
 
-    div:last-of-type {
+    > div {
         flex-grow: 1;
     }
+}
+
+img {
+    max-width: 10em;
 }
