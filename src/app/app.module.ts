@@ -13,6 +13,9 @@ import { ServicesComponent } from './content/services/services.component';
 import { ImmoComponent } from './content/services/immo/immo.component';
 import { SoulteComponent } from './content/services/soulte/soulte.component';
 import { CreditComponent } from './content/services/credit/credit.component';
+import { HeaderTopComponent } from './header/header-top/header-top.component';
+import { HeaderNavComponent } from './header/header-nav/header-nav.component';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -25,12 +28,15 @@ import { CreditComponent } from './content/services/credit/credit.component';
     ServicesComponent,
     ImmoComponent,
     SoulteComponent,
-    CreditComponent
+    CreditComponent,
+    HeaderTopComponent,
+    HeaderNavComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
