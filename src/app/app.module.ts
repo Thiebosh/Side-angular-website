@@ -13,8 +13,6 @@ import { ServicesComponent } from './content/services/services.component';
 import { ImmoComponent } from './content/services/immo/immo.component';
 import { SoulteComponent } from './content/services/soulte/soulte.component';
 import { CreditComponent } from './content/services/credit/credit.component';
-import { HeaderTopComponent } from './header/header-top/header-top.component';
-import { HeaderNavComponent } from './header/header-nav/header-nav.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MentionsLegalesComponent } from './content/mentions-legales/mentions-legales.component';
 import { ConfidentialiteComponent } from './content/confidentialite/confidentialite.component';
@@ -33,8 +31,6 @@ import { NotFoundComponent } from './content/not-found/not-found.component';
     ImmoComponent,
     SoulteComponent,
     CreditComponent,
-    HeaderTopComponent,
-    HeaderNavComponent,
     MentionsLegalesComponent,
     ConfidentialiteComponent,
     ProtectionDonneesComponent,

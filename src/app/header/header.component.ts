@@ -10,6 +10,12 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    // scroll up : remove scrollUp
+    // scroll down : add scrollUp
+
+    // before dimension : active
+
+    
   }
 
 }

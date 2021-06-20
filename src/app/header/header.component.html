@@ -1,9 +1,10 @@
-<div class="component-root">
-    <img class="img-responsive" src="assets/images/logo.png">
-    <div>
-        <app-header-top></app-header-top>
-        <br>
-        <app-header-nav></app-header-nav>
+<div routerLinkActive="active" class="header fixed-top header-animated active">
+    <div class="container">
+        <div class="component-root">
+            <a routerLink=""><img class="img-responsive" src="assets/images/logo.png"></a>
+            <a class="nav-link" routerLink="presenting">Notre agence</a>
+            <a class="nav-link" routerLink="services">Nos services</a>
+            <a class="nav-link" routerLink="contact">Nous contacter</a>
+        </div>
     </div>
 </div>
-<hr>
