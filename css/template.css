@@ -1,0 +1,100 @@
+/*$$$$$ STYLE COMMMUN $$$$$*/
+
+body {
+	font-family: Georgia;
+	text-align: center;
+	background: url('../img/back.png') no-repeat right, linear-gradient(130deg, rgb(162,162,162) 0%, rgb(223,223,223) 35%, rgb(255,255,255) 100%);
+}
+
+section {
+	min-height: 40ex;
+}
+
+.title1 { font-size: 1.75em; }
+
+.title2 { font-size: 1.5em; }
+
+a {
+	cursor: pointer;
+    text-decoration: none;
+}
+
+.button1:hover, .button2:hover, .buttonNav:hover { cursor: pointer; }
+
+.button1, .button2 {
+	border: 1px solid gray;
+	border-radius:5px;
+	padding: 0.5em;
+    color: white;
+    background: #999; /*couleur du fond*/
+	box-shadow:  0 2px 4px #555;
+    font-weight: bold;
+}
+
+.button2 {
+    width: 75%;
+    margin: 0 12.5%;
+}
+
+.buttonNav {
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 0.28em 1.6em;
+	color: #4b4b50;
+	background-color: #f8f8f7;
+}
+
+
+/*$$$$$ STYLE MENU $$$$$*/
+
+header h1 { 
+    width: 50%;
+    margin: auto;
+}
+
+menu, menu a {
+	padding: 0;
+	color: white;
+}
+
+menu li {
+	position: relative;
+	display: inline-block;
+	margin: 10px 50px;
+	width: 8em;
+	padding: 0.5em;
+	border-radius: 5px;
+	box-shadow: 0 0 3px #555;
+	background-color: rgb(32, 98, 63);
+}
+
+menu li:hover { background-color: rgb(80, 140, 110); }
+
+menu li ul {
+	position: absolute;
+	left: -2.2em;
+	display: none;
+}
+
+menu li:hover ul, menu li:focus ul, menu li ul li {
+	display: block;
+	margin: 0;
+}
+
+
+/*$$$$$ STYLE FOOTER $$$$$*/
+
+footer hr {
+	width: 70%;
+	border: 2px solid lightgrey;
+}
+
+footer {
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+footer a {
+	color: black;
+    text-decoration: underline;
+}
