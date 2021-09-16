@@ -1,19 +1,66 @@
+:root {
+	--base-green: rgb(32, 98, 63);
+	--selected-green: rgb(80, 140, 110);
+}
+
 /*$$$$$ STYLE COMMMUN $$$$$*/
 
 body {
 	font-family: Georgia;
 	text-align: center;
 	background: url('../img/back.png') no-repeat right, linear-gradient(130deg, rgb(162,162,162) 0%, rgb(223,223,223) 35%, rgb(255,255,255) 100%);
+	/*background: url('../img/back.png') no-repeat right, linear-gradient(130deg, rgb(142,142,142) 0%, rgb(203,203,203) 36%, rgb(255,255,255) 100%);*/
 	background-attachment: fixed;
 }
 
-.title1 { font-size: 1.75em; }
+section {
+	width: 75%;
+	max-width: 70em;
+	min-width: 40em;
+	margin: auto;
+}
 
-.title2 { font-size: 1.5em; }
+.title1 {
+	font-size: 1.75em;
+}
+
+.title2 {
+	font-size: 1.5em;
+}
+
+.title1, .title2, .green {
+	color: var(--base-green);
+}
 
 a {
 	cursor: pointer;
     text-decoration: none;
+}
+
+p {
+	text-align: justify;
+}
+
+.center {
+	text-align: center;
+}
+
+.padding {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.v-align {
+    align-self: center;
 }
 
 .button1:hover, .button2:hover, .buttonNav:hover { cursor: pointer; }
@@ -44,9 +91,13 @@ a {
 
 /*$$$$$ STYLE MENU $$$$$*/
 
-header h1 { 
-    width: 50%;
-    margin: auto;
+header {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+header img {
+	padding-right: 5em;
 }
 
 menu, menu a {
@@ -62,10 +113,10 @@ menu li {
 	padding: 0.5em;
 	border-radius: 5px;
 	box-shadow: 0 0 3px #555;
-	background-color: rgb(32, 98, 63);
+	background-color: var(--base-green);
 }
 
-menu li:hover { background-color: rgb(80, 140, 110); }
+menu li:hover { background-color: var(--selected-green); }
 
 menu li ul {
 	position: absolute;

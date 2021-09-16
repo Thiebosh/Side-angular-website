@@ -1,37 +1,63 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <link href="./css/normalize.css" rel="stylesheet"/>
-  <link href="./css/template.css" rel="stylesheet"/>
-  <link href="./css/services.css" rel="stylesheet"/>
+    <meta charset="utf-8">
+    <link href="./css/normalize.css" rel="stylesheet"/>
+    <link href="./css/template.css" rel="stylesheet"/>
+    <link href="./css/services.css" rel="stylesheet"/>
 
-  <title>NationalFinance - services</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/services.js"></script>
+
+    <title>NationalFinance - services</title>
 </head>
 <body>
-    <header><a href="home.html"><img src="img/logo.png"></a></header>
-
-    <menu>
-        <li><a href="present.html">Notre agence</a></li>
-        <li>
-            <a href="services.html">Nos services</a>
-            <ul>
-                <li><a href="services.html#">Rachats de crédits</a></li>
-                <li><a href="services.html#">Prêt immobilier</a></li>
-                <li><a href="services.html#">Rachat de soulte</a></li>
-            </ul>
-        </li>
-        <li><a href="contact.html">Nous contacter</a></li>
-    </menu>
+    <header class="flex">
+        <a href="home.html"><img src="img/logo.png" width="150px"></a>
+    
+        <menu class="v-align">
+            <li><a href="present.html">Notre agence</a></li>
+            <li>
+                <a href="services.html">Nos services</a>
+                <ul>
+                    <li class="option1"><a href="services.html#1">Rachats de crédits</a></li>
+                    <li class="option2"><a href="services.html#2">Prêt immobilier</a></li>
+                    <li class="option3"><a href="services.html#3">Rachat de soulte</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Nous contacter</a></li>
+        </menu>
+    </header>
 
     <section>
-        corps de page
+        <div>
+            <span class="option1">option1</span>
+            &nbsp;&nbsp;
+            <span class="option2">option2</span>
+            &nbsp;&nbsp;
+            <span class="option3">option3</span>
+        </div>
+
+        <br><hr><br>
+
+        <div id="option1-content">
+            contenu 1
+        </div>
+
+        <div id="option2-content">
+            contenu 2
+        </div>
+
+        <div id="option3-content">
+            contenu 3
+        </div>
     </section>
 
     <footer>
         <br><hr><br>
-        <span>
-            ©2021 — NationalFinance — 
+        <span class="flex">
+            <span class="v-align">©2021 — NationalFinance — </span>
+            &nbsp;&nbsp;
             <a href="https://www.facebook.com/nationalFinance62200" target="_blank" ><img src="./img/fb.png" height="25px"></a>
             <a href="https://www.linkedin.com/in/corinnebomy/detail/recent-activity/shares/" target="_blank" ><img src="./img/li.png" height="25px"></a>
         </span>
