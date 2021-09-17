@@ -1,3 +1,7 @@
 #option1-content, #option2-content, #option3-content {
     display: none;
 }
+
+#option1, #option2, #option3 {
+    border-radius:50%;
+}

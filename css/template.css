@@ -14,8 +14,8 @@ body {
 }
 
 section {
-	width: 75%;
-	max-width: 70em;
+	width: 80%;
+	max-width: 60em;
 	min-width: 40em;
 	margin: auto;
 }
@@ -45,9 +45,8 @@ p {
 	text-align: center;
 }
 
-.padding {
-	padding-left: 5px;
-	padding-right: 5px;
+.block {
+	display: block;
 }
 
 .bold {
@@ -96,12 +95,17 @@ header {
 	margin-bottom: 50px;
 }
 
-header img {
-	padding-right: 5em;
+header > img, menu li {
+	box-shadow: 0 2px 6px grey;
+	border-radius: 5px;
 }
 
-menu, menu a {
+menu {
+	margin-left: 5em;
 	padding: 0;
+}
+
+menu a {
 	color: white;
 }
 
@@ -111,9 +115,13 @@ menu li {
 	margin: 10px 50px;
 	width: 8em;
 	padding: 0.5em;
-	border-radius: 5px;
-	box-shadow: 0 0 3px #555;
 	background-color: var(--base-green);
+	border: 1px solid var(--selected-green);
+}
+
+menu ul li {
+	top: 12px;
+	left: -5px;
 }
 
 menu li:hover { background-color: var(--selected-green); }
@@ -127,6 +135,13 @@ menu li ul {
 menu li:hover ul, menu li:focus ul, menu li ul li {
 	display: block;
 	margin: 0;
+}
+
+#sticky-social {
+	position: fixed;
+	z-index: 5;
+	top: 2px;
+	right: 5em;
 }
 
 

@@ -10,7 +10,7 @@ $(function() {
             "background-color": "rgb(32, 98, 63)"
         });
 
-        $(".image-holder").css({
+        $("#image-holder").css({
             "left": "0px"
         })
     }
@@ -29,7 +29,7 @@ $(function() {
             "background-color": "rgb(32, 98, 63)"
         });
 
-        $(".image-holder").css({
+        $("#image-holder").css({
             "left": "-800px"
         })
     });
@@ -45,7 +45,7 @@ $(function() {
             "background-color": "rgb(32, 98, 63)"
         });
 
-        $(".image-holder").css({
+        $("#image-holder").css({
             "left": "-1600px"
         })
     });

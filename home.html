@@ -14,54 +14,79 @@
 <body>
     <header class="flex">
         <a href="home.html"><img src="img/logo.png" width="150px"></a>
-    
+
         <menu class="v-align">
-            <li><a href="present.html">Notre agence</a></li>
+            <li>
+                <a href="home.html">Notre agence</a>
+                <ul>
+                    <li><a href="home.html">Nos missions</a></li>
+                    <li><a href="partner.html">Nos partenaires mandants</a></li>
+                </ul>
+            </li>
             <li>
                 <a href="services.html">Nos services</a>
                 <ul>
-                    <li><a href="services.html#1">Rachats de crédits</a></li>
-                    <li><a href="services.html#2">Prêt immobilier</a></li>
-                    <li><a href="services.html#3">Rachat de soulte</a></li>
+                    <li class="option1"><a href="services.html#1">Rachats de crédits</a></li>
+                    <li class="option2"><a href="services.html#2">Prêt immobilier</a></li>
+                    <li class="option3"><a href="services.html#3">Rachat de soulte</a></li>
                 </ul>
             </li>
             <li><a href="contact.html">Nous contacter</a></li>
         </menu>
+
+        <div id="sticky-social">
+            <a href="https://www.facebook.com/nationalFinance62200" target="_blank" ><img src="./img/fb.png" height="25px"></a>
+            &nbsp;
+            <a href="https://www.linkedin.com/in/corinnebomy/detail/recent-activity/shares/" target="_blank" ><img src="./img/li.png" height="25px"></a>
+        </div>
     </header>
 
     <section>
-        <h1 class="title1">NATIONAL FINANCE, votre expert en rachats de crédits à Boulogne sur Mer</h1>
-        <article class="slider-holder">
-            <span id="slider-image-1"></span>
-            <span id="slider-image-2"></span>
-            <span id="slider-image-3"></span>
-            <div class="image-holder">
-                <img class="slider-image" src="./img/home/carousel1.png" alt="Visuel 1"/>
-                <img class="slider-image" src="./img/home/carousel2.png" alt="Visuel 2"/>
-                <img class="slider-image" src="./img/home/carousel3.png" alt="Visuel 3"/>
+        <article>
+            <h1 id="title">NATIONAL FINANCE</h1>
+            <h2 class="title2">Votre expert en rachats de crédits à Boulogne sur Mer depuis 2005</h2>
+            <br>
+            <div id="slider-holder">
+                <div id="image-holder">
+                    <img src="./img/home/carousel1.png" alt="Visuel 1"/>
+                    <img src="./img/home/carousel2.png" alt="Visuel 2"/>
+                    <img src="./img/home/carousel3.png" alt="Visuel 3"/>
+                </div>
+                <div id="button-holder">
+                    <span id="carousel-btn1"></span>
+                    <span id="carousel-btn2"></span>
+                    <span id="carousel-btn3"></span>
+                </div>
             </div>
-            <div class="button-holder">
-                <a id="carousel-btn1" class="slider-change"></a>
-                <a id="carousel-btn2" class="slider-change"></a>
-                <a id="carousel-btn3" class="slider-change"></a>
+            <br><br>
+            <p class="center">
+                NATIONAL FINANCE s'engage à rechercher la solution qui répondra au mieux à votre situation et à vous apporter une meilleure sérénité dans la gestion de votre budget. 
+                L’agence NATIONAL FINANCE à Boulogne sur Mer vous reçoit en toute confidentialité au 78 de la rue Nationale, du lundi au samedi, sur rendez-vous.
+            </p>
+        </article>
+
+        <br><br><br>
+
+        <article>
+            <h2 class="title2">Bénéficiez de l’expérience d’un interlocuteur unique ainsi que d’un suivi personnalisé !</h2>
+            <div class="flex">
+                <img class="v-align inner-space" src="img/home/flottant3.png" width="200px" height="200px">
+                <p class="v-align">
+                    Forte de ses 20 années d’expérience dans le domaine immobilier, Corinne BOMY GOSIK a fondé l’agence NATIONAL FINANCE en juillet 2005 et a acquis un vrai savoir faire reconnu dans le crédit.
+                    Experte certifiée IOBSP, Corinne est toujours à vos côtés pour défendre vos intérêts et vous aider à trouver le meilleur financement possible adapté à votre situation.
+                    <br><br>
+                    <span class="green bold center block">
+                        « Mon rôle est de vous accompagner tout au long de vos projets, de défendre vos intérêts afin de vous obtenir le meilleur prêt adapté à vos besoins. »
+                    </span>
+                </p>
             </div>
         </article>
 
-        <br><br>
-        <br><br>
+        <br><br><br><br>
 
-        <h2 class="title2">Un seul interlocuteur !</h2>
-        <p>
-        NATIONAL FINANCE s'engage à rechercher la solution qui répondra au mieux à votre situation et à vous apporter une meilleure sérénité dans la gestion de votre budget. 
-        L’agence NATIONAL FINANCE à Boulogne sur Mer vous reçoit en toute confidentialité au 78 de la rue Nationale, du lundi au samedi, sur rendez-vous.
-        </p>
-
-        <br><br>
-        <br><br>
-
-        <p class="flex">
-            <img src="img/home/flottant1.png" width="400px">
-            <span class="center padding v-align">
+        <article class="flex">
+            <img class="v-align inner-space" src="img/home/flottant1.png" width="400px" height="280px">
+            <p class="v-align center">
                 Ensemble, nous trouverons <span class="green bold">LA SOLUTION CREDIT</span> pour vous permettre de rebondir et donner vie à vos projets.<br><br>
                 Dès aujourd’hui, vous pouvez faire un grand pas vers la réalisation de vos projets.<br><br>
                 Prenons le temps d’en parler !<br><br>
@@ -69,8 +94,8 @@
                     <span class="v-align">A très bientôt !</span>&nbsp;&nbsp;
                     <img src="img/home/flottant2.png" width="150px">
                 </span>
-            </span>
-        </p>
+            </p>
+        </article>
     </section>
 
     <footer>
@@ -79,6 +104,7 @@
             <span class="v-align">©2021 — NationalFinance — </span>
             &nbsp;&nbsp;
             <a href="https://www.facebook.com/nationalFinance62200" target="_blank" ><img src="./img/fb.png" height="25px"></a>
+            &nbsp;
             <a href="https://www.linkedin.com/in/corinnebomy/detail/recent-activity/shares/" target="_blank" ><img src="./img/li.png" height="25px"></a>
         </span>
         <br><br>
