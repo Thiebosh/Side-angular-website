@@ -1,7 +1,10 @@
+@import url(https://fr.allfont.net/allfont.css?fonts=aller-display);
+
 #title {
     color: var(--base-green);
     font-size: 4em;
     margin-bottom: 0;
+	font-family: 'Aller Display';
 }
 
 #slider-holder {

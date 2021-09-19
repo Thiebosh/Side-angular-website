@@ -4,10 +4,10 @@ $(function() {
             "background-color": "rgb(80, 140, 110)"
         });
         $("#carousel-btn2").css({
-            "background-color": "rgb(32, 98, 63)"
+            "background-color": "#20622B"
         });
         $("#carousel-btn3").css({
-            "background-color": "rgb(32, 98, 63)"
+            "background-color": "#20622B"
         });
 
         $("#image-holder").css({
@@ -23,10 +23,10 @@ $(function() {
             "background-color": "rgb(80, 140, 110)"
         });
         $("#carousel-btn1").css({
-            "background-color": "rgb(32, 98, 63)"
+            "background-color": "#20622B"
         });
         $("#carousel-btn3").css({
-            "background-color": "rgb(32, 98, 63)"
+            "background-color": "#20622B"
         });
 
         $("#image-holder").css({
@@ -39,10 +39,10 @@ $(function() {
             "background-color": "rgb(80, 140, 110)"
         });
         $("#carousel-btn1").css({
-            "background-color": "rgb(32, 98, 63)"
+            "background-color": "#20622B"
         });
         $("#carousel-btn2").css({
-            "background-color": "rgb(32, 98, 63)"
+            "background-color": "#20622B"
         });
 
         $("#image-holder").css({
