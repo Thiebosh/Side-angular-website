@@ -8,7 +8,7 @@
 body {
 	font-family: Georgia;
 	text-align: center;
-	background: url('../img/back.png') no-repeat right, linear-gradient(130deg, rgb(162,162,162) 0%, rgb(223,223,223) 35%, rgb(255,255,255) 100%);
+	background: url('../img/back2.png') no-repeat right, linear-gradient(130deg, rgb(162,162,162) 0%, rgb(223,223,223) 35%, rgb(255,255,255) 100%);
 	/*background: url('../img/back.png') no-repeat right, linear-gradient(130deg, rgb(142,142,142) 0%, rgb(203,203,203) 36%, rgb(255,255,255) 100%);*/
 	background-attachment: fixed;
 }
@@ -26,6 +26,7 @@ section {
 
 .title2 {
 	font-size: 1.5em;
+	font-weight: bolder;
 }
 
 .title1, .title2, .green {

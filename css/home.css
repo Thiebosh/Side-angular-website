@@ -40,10 +40,34 @@
     margin-left: 2px;
 }
 
-article:nth-of-type(2) .inner-space {
+#present .inner-space {
     margin-right: 4em;
 }
 
-article:nth-of-type(3) .inner-space {
+#present > ul {
+    text-align: justify;
+    margin: 16px 4em;
+}
+
+#partners > div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#partners > h2 {
+    margin-bottom: 30px;
+}
+
+#partners img {
+    margin: 20px 15px;
+}
+
+#subtitle {
+    font-size: 1.2em;
+}
+
+#end .inner-space {
     margin-right: 5px;
 }
