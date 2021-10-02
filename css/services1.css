@@ -4,4 +4,34 @@
     color: var(--base-green);
     font-size: 3em;
 	font-family: 'Aller Display';
+    margin-bottom: 10px;
+}
+
+#title + .title2 {
+    width: 80%;
+    margin: auto;
+    font-size: 1.4em;
+    font-style: italic;
+}
+
+.left {
+    text-align: left;
+}
+
+#little {
+    font-size: 0.8em;
+}
+
+.back1 {
+	font-family: 'Aller Display';
+    margin:auto;
+    width: 30em;
+    background-image: url('../img/services/option1/background1-paysage.png');
+    background-size: cover;
+}
+
+.back1 > div {
+    background: rgba(255,255,255, 0.6);
+    padding: 2em 25px;
+    font-size: 1.2em;
 }
