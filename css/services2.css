@@ -4,4 +4,16 @@
     color: var(--base-green);
     font-size: 3em;
 	font-family: 'Aller Display';
+    margin-bottom: 10px;
+}
+
+.title2 {
+    width: 80%;
+    margin: auto;
+    font-size: 1.4em;
+    font-style: italic;
+}
+
+#specialLine {
+    font-size: 1.2em;
 }
