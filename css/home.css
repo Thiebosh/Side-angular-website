@@ -7,6 +7,10 @@
 	font-family: 'Aller Display';
 }
 
+#title + .title2 {
+    font-style: italic;
+}
+
 #slider-holder {
     width: 800px;
     margin: auto;
