@@ -10,12 +10,3 @@ article > p {
     margin-left: 4em;
     margin-right: 4em;
 }
-
-#option1, #option2, #option3 {
-    border-radius:50%;
-}
-
-#option2 {
-    margin-right: 4em;
-    margin-left: 4em;
-}
