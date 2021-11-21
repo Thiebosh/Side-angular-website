@@ -8,36 +8,12 @@
     <link href="./css/normalize.css" rel="stylesheet"/>
     <link href="./css/template.css" rel="stylesheet"/>
     <link href="./css/services1.css" rel="stylesheet"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./js/loader.js"></script>
 </head>
 <body>
-    <header class="flex">
-        <a href="index.html"><img src="img/logo.svg" width="150px"></a>
-
-        <menu class="v-align">
-            <li>
-                <a href="index.html">Notre agence</a>
-                <ul>
-                    <li><a href="index.html#present">Nos missions</a></li>
-                    <li><a href="index.html#partners">Nos partenaires mandants</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="services.html">Nos services</a>
-                <ul>
-                    <li class="option1"><a href="services1.html">Rachats de crédits</a></li>
-                    <li class="option2"><a href="services2.html">Prêt immobilier</a></li>
-                    <li class="option3"><a href="services3.html">Rachat de soulte</a></li>
-                </ul>
-            </li>
-            <li><a href="contact.html">Nous contacter</a></li>
-        </menu>
-
-        <div id="sticky-social">
-            <a href="https://www.facebook.com/nationalFinance62200" target="_blank" ><img src="./img/fb.png" height="25px"></a>
-            &nbsp;
-            <a href="https://www.linkedin.com/in/corinnebomy/detail/recent-activity/shares/" target="_blank" ><img src="./img/li.png" height="25px"></a>
-        </div>
-    </header>
+    <header data-include="header" class="flex"></header>
 
     <section>
         <article>
@@ -120,28 +96,6 @@
         </article>
     </section>
 
-    <footer>
-        <br><hr><br>
-        <span class="flex">
-            <span class="v-align">©2021 — NationalFinance — </span>
-            &nbsp;&nbsp;
-            <a href="https://www.facebook.com/nationalFinance62200" target="_blank" ><img src="./img/fb.png" height="25px"></a>
-            &nbsp;
-            <a href="https://www.linkedin.com/in/corinnebomy/detail/recent-activity/shares/" target="_blank" ><img src="./img/li.png" height="25px"></a>
-        </span>
-        <br><br>
-        <span>
-            Contact : <em><a href="mailto:contact@nationalfinance.fr">contact@nationalfinance.fr</a></em> — 
-            <a href="tel:0321913233">03 21 91 32 33</a> — <a href="tel:0671687807">06 71 68 78 07</a>
-        </span>
-        <br><br>
-        <span>
-            <a href="protection-donnees.html">Politique de protection des données</a> — 
-            <a href="mentions-legales.html">Mentions légales</a> — 
-            <a href="confidentialite.html">Politique de confidentialité</a>
-        </span>
-        <br>
-        &nbsp;
-    </footer>
+    <footer data-include="footer"></footer>
 </body>
 </html>
