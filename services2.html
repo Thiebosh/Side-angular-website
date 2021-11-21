@@ -8,46 +8,24 @@
     <link href="./css/normalize.css" rel="stylesheet"/>
     <link href="./css/template.css" rel="stylesheet"/>
     <link href="./css/services2.css" rel="stylesheet"/>
+
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./js/loader.js"></script>
 </head>
 <body>
-    <header class="flex">
-        <a href="index.html"><img src="img/logo.svg" width="150px"></a>
-
-        <menu class="v-align">
-            <li>
-                <a href="index.html">Notre agence</a>
-                <ul>
-                    <li><a href="index.html#present">Nos missions</a></li>
-                    <li><a href="index.html#partners">Nos partenaires mandants</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="services.html">Nos services</a>
-                <ul>
-                    <li class="option1"><a href="services1.html">Rachats de crédits</a></li>
-                    <li class="option2"><a href="services2.html">Prêt immobilier</a></li>
-                    <li class="option3"><a href="services3.html">Rachat de soulte</a></li>
-                </ul>
-            </li>
-            <li><a href="contact.html">Nous contacter</a></li>
-        </menu>
-
-        <div id="sticky-social">
-            <a href="https://www.facebook.com/nationalFinance62200" target="_blank" ><img src="./img/fb.png" height="25px"></a>
-            &nbsp;
-            <a href="https://www.linkedin.com/in/corinnebomy/detail/recent-activity/shares/" target="_blank" ><img src="./img/li.png" height="25px"></a>
-        </div>
-    </header>
+    <header data-include="header" class="flex"></header>
 
     <section>
         <article>
+            <img class="center" src="./img/services/option3.png" width="150px"/>
             <h1 id="title">Prêt immobilier</h1>
             <h2 class="title2">Financement immobilier, renégociation de votre prêt immobilier, calcul de budget avant l’achat</h2>
             <br><br>
             <p class="center">
-                Au-delà de la course au meilleur taux, le métier de courtier en crédit requiert une parfaite connaissance du mode de fonctionnement et de l’offre des organismes de prêts.
+                Les conditions d’octroi des financements se durcissent...
+                Au-delà de la course au meilleur taux, le métier de courtier en crédit requiert une parfaite connaissance du mode de fonctionnement et de l’offre des organismes de prêts.<br><br>
                 Primo accédant, achat d’un terrain et construction, résidence principale (neuve ou ancienne), résidence secondaire, immeuble locatif, prêt relais… les cas de figure sont multiples.
-                A chacun d’entre eux correspond une solution personnalisée.
+                A chacun d’entre eux correspond une solution personnalisée. 
             </p>
             <br><br>
             <p id="specialLine" class="center green bold">
@@ -55,40 +33,29 @@
             </p>
             <br>
             <div class="flex">
-                <img class="v-align" src="./img/services/option2/flottant1.jpg">
+                <div class="v-align">
+                    <img src="./img/services/option2/flottant1.jpg"><br><br>
+                    Avant de vous engager dans un projet immobilier, n’hésitez pas à venir nous voir pour connaître votre capacité d’emprunt.
+                    NATIONAL FINANCE vous propose un entretien de découverte gratuit et sans engagement.
+                </div>
                 &nbsp;&nbsp;
-                <img class="v-align" src="./img/services/option2/flottant2.png" width="300px">
+                <div class="v-align">
+                    Les clés de votre projet en toute sérénité
+                    <img src="./img/services/option2/flottant2.png" width="300px">
+                </div>
             </div>
             <br><br><br>
-            <p class="center">
-                Avant de vous engager dans un projet immobilier, n’hésitez pas à venir nous voir pour connaître votre capacité d’emprunt.
-                NATIONAL FINANCE vous propose un entretien de découverte gratuit et sans engagement.
-            </p>
+            <div class="flex">
+                <img class="v-align" src="./img/services/option1/flottant2.png" height="75px">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <p class="v-align center">
+                    NATIONAL FINANCE apporte des solutions de financement pour les séniors que les banques traditionnelles ne veulent pas financer.
+                    Nous sommes en mesure de financer jusqu’à 95 ans, date de fin de prêt, sans changement de domiciliation bancaire. 
+                </p>
+            </div>
         </article>
     </section>
 
-    <footer>
-        <br><hr><br>
-        <span class="flex">
-            <span class="v-align">©2021 — NationalFinance — </span>
-            &nbsp;&nbsp;
-            <a href="https://www.facebook.com/nationalFinance62200" target="_blank" ><img src="./img/fb.png" height="25px"></a>
-            &nbsp;
-            <a href="https://www.linkedin.com/in/corinnebomy/detail/recent-activity/shares/" target="_blank" ><img src="./img/li.png" height="25px"></a>
-        </span>
-        <br><br>
-        <span>
-            Contact : <em><a href="mailto:contact@nationalfinance.fr">contact@nationalfinance.fr</a></em> — 
-            <a href="tel:0321913233">03 21 91 32 33</a> — <a href="tel:0671687807">06 71 68 78 07</a>
-        </span>
-        <br><br>
-        <span>
-            <a href="protection-donnees.html">Politique de protection des données</a> — 
-            <a href="mentions-legales.html">Mentions légales</a> — 
-            <a href="confidentialite.html">Politique de confidentialité</a>
-        </span>
-        <br>
-        &nbsp;
-    </footer>
+    <footer data-include="footer"></footer>
 </body>
 </html>
