@@ -4,4 +4,8 @@ $(function () {
         var file = $(this).data('include') + '.html'
         $(this).load(file)
     })
+
+	$(window).load(function() {
+		$('.preloader').remove();
+	});
 })
