@@ -3,5 +3,12 @@
 #title {
     color: var(--base-green);
     font-size: 3em;
-	font-family: 'Aller Display';
+	font-family: sans-serif;
+}
+
+.title2 {
+    width: 95%;
+    margin: auto;
+    font-size: 1.4em;
+    font-style: italic;
 }

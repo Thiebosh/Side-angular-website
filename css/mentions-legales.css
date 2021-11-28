@@ -1,0 +1,12 @@
+p, section li {
+	font-size: 0.9em;
+}
+
+.title2 {
+	font-size: 1.2em;
+    margin: 0 auto;
+}
+
+p, ul {
+    margin: 0 auto;
+}

@@ -3,7 +3,7 @@
 #title {
     color: var(--base-green);
     font-size: 3em;
-	font-family: 'Aller Display';
+	font-family: sans-serif;
     margin-bottom: 10px;
 }
 
@@ -12,4 +12,36 @@
     margin: auto;
     font-size: 1.4em;
     font-style: italic;
+}
+
+section li {
+    list-style-type: none;
+    position: relative;    /* It's needed for setting position to absolute in the next rule. */
+    text-align: left;
+    margin-bottom: 14px;
+    font-size: 1.4em;
+}
+
+section li:first-of-type {
+	font-family: 'Aller Display';
+}
+
+section li:first-of-type::before {
+    background-image: url('../img/contact/phone.png');
+}
+
+section li:last-of-type::before {
+    background-image: url('../img/contact/mail.png');
+}
+
+section li::before {
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -2.2em;
+    top: -0.2em;
+    background-size: 40px;
+    display: inline-block;
+    width: 40px; 
+    height: 40px;
+    content:"";
 }
