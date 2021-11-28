@@ -3,7 +3,7 @@
 #title {
     color: var(--base-green);
     font-size: 3em;
-	font-family: 'Aller Display';
+	font-family: sans-serif;
     margin-bottom: 10px;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .back1 {
-	font-family: 'Aller Display';
+    font-family: system-ui;
     margin:auto;
     width: 30em;
     background-image: url('../img/services/option1/background1-paysage.png');
@@ -33,5 +33,5 @@
 .back1 > div {
     background: rgba(255,255,255, 0.6);
     padding: 2em 25px;
-    font-size: 1.2em;
+    font-size: 1.6em;
 }

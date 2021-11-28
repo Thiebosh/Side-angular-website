@@ -3,7 +3,7 @@
 #title {
     color: var(--base-green);
     font-size: 3em;
-	font-family: 'Aller Display';
+	font-family: sans-serif;
 }
 
 article > p {
