@@ -1,7 +1,6 @@
 User-agent: *
 Crawl-delay: 60
 Allow: /*.html$
-Disallow: /readme.md
 Disallow: /template/
 Disallow: /js/
 Disallow: /css/
