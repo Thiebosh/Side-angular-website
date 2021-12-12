@@ -1,0 +1,11 @@
+User-agent: *
+Crawl-delay: 60
+Allow: /*.html$
+Disallow: /readme.md
+Disallow: /template/
+Disallow: /js/
+Disallow: /css/
+Disallow: /img/
+Disallow: /fonts/
+
+Sitemap: https://national-finance.fr/sitemap.xml
