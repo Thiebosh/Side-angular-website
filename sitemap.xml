@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.national-finance.fr/</loc>
-    <lastmod>2021-12-12</lastmod>
+    <lastmod>2022-01-03</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.national-finance.fr/services.html</loc>
-    <lastmod>2021-12-12</lastmod>
+    <loc>https://www.national-finance.fr/services</loc>
+    <lastmod>2022-01-03</lastmod>
   <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.national-finance.fr/rachat-credit.html</loc>
-    <lastmod>2021-12-12</lastmod>
+    <loc>https://www.national-finance.fr/rachat-credits</loc>
+    <lastmod>2022-01-03</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.national-finance.fr/pret-immobilier.html</loc>
-    <lastmod>2021-12-12</lastmod>
+    <loc>https://www.national-finance.fr/pret-immobilier</loc>
+    <lastmod>2022-01-03</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.national-finance.fr/rachat-soulte.html</loc>
-    <lastmod>2021-12-12</lastmod>
+    <loc>https://www.national-finance.fr/rachat-soulte</loc>
+    <lastmod>2022-01-03</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.national-finance.fr/contact</loc>
-    <lastmod>2021-12-12</lastmod>
+    <lastmod>2022-01-03</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.national-finance.fr/mentions-legales.html</loc>
-    <lastmod>2021-12-12</lastmod>
+    <loc>https://www.national-finance.fr/mentions-legales</loc>
+    <lastmod>2022-01-03</lastmod>
     <priority>0.2</priority>
   </url>
 </urlset>

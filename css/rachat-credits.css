@@ -35,3 +35,29 @@
     padding: 2em 25px;
     font-size: 1.6em;
 }
+
+h1 {
+    margin-bottom: 0.6em;
+}
+
+section > .title2:first-of-type {
+    font-style: italic;
+}
+
+article:first-of-type .title2 {
+    font-size: 1.4em;
+}
+
+.padded {
+    padding: 1em 20px;
+}
+
+.spaced {
+    justify-content: space-evenly;
+}
+
+.spaced ul {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
