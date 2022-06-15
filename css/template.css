@@ -9,7 +9,6 @@ body {
 	font-family: Georgia;
 	text-align: center;
 	background: url('../img/back_alter.svg') no-repeat right, linear-gradient(130deg, rgb(162,162,162) 0%, rgb(223,223,223) 35%, rgb(255,255,255) 100%);
-	/*background: url('../img/back.png') no-repeat right, linear-gradient(130deg, rgb(142,142,142) 0%, rgb(203,203,203) 36%, rgb(255,255,255) 100%);*/
 	background-attachment: fixed;
 }
 
